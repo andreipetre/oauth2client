@@ -39,6 +39,7 @@ install_requires = [
     'pyasn1-modules>=0.0.5',
     'rsa>=3.1.4',
     'six>=1.6.1',
+    'future==0.18.2',
 ]
 
 long_desc = """
