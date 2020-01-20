@@ -15,6 +15,7 @@
 """App Engine py.test configuration."""
 from __future__ import unicode_literals
 
+from builtins import str
 import sys
 
 from six.moves import reload_module

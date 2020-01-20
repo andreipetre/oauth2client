@@ -15,6 +15,8 @@
 """Unit tests for oauth2client.clientsecrets."""
 from __future__ import unicode_literals
 
+from builtins import str
+from builtins import object
 import errno
 from io import StringIO
 import os

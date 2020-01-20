@@ -16,6 +16,7 @@
 """Crypto-related routines for oauth2client."""
 from __future__ import unicode_literals
 
+from builtins import str
 import json
 import logging
 import time
@@ -240,7 +241,7 @@ def verify_signed_jwt_with_certs(jwt, certs, audience=None):
         raise AppIdentityError('Can\'t parse token: {0}'.format(payload_bytes))
 
     # Verify that the signature matches the message.
-    _verify_signature(message_to_sign, signature, certs.values())
+    _verify_signature(message_to_sign, signature, list(certs.values()))
 
     # Verify the issued at and created times in the payload.
     _verify_time_range(payload_dict)

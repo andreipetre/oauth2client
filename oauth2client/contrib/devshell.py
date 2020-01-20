@@ -15,6 +15,8 @@
 """OAuth 2.0 utitilies for Google Developer Shell environment."""
 from __future__ import unicode_literals
 
+from builtins import str
+from builtins import object
 import datetime
 import json
 import os

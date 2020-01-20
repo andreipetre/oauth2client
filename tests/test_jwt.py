@@ -15,6 +15,7 @@
 """Unit tests for JWT related methods in oauth2client."""
 from __future__ import unicode_literals
 
+from builtins import str
 import os
 import tempfile
 import time

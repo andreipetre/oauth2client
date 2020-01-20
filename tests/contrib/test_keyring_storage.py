@@ -15,6 +15,7 @@
 """Tests for oauth2client.contrib.keyring_storage."""
 from __future__ import unicode_literals
 
+from builtins import object
 import datetime
 import threading
 import unittest

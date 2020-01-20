@@ -227,6 +227,7 @@ our model would look like
 """
 from __future__ import unicode_literals
 
+from builtins import object
 import importlib
 
 import django.conf

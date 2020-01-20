@@ -16,6 +16,7 @@
 from __future__ import unicode_literals
 
 # Mock a Django environment
+from builtins import object
 import datetime
 import unittest
 

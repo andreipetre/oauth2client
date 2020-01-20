@@ -14,6 +14,7 @@
 """OpenSSL Crypto-related routines for oauth2client."""
 from __future__ import unicode_literals
 
+from builtins import object
 from OpenSSL import crypto
 
 from oauth2client import _helpers

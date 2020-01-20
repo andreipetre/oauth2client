@@ -15,6 +15,8 @@
 """Helper methods for creating & verifying XSRF tokens."""
 from __future__ import unicode_literals
 
+from builtins import zip
+from builtins import str
 import base64
 import binascii
 import hmac

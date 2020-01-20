@@ -13,6 +13,7 @@ from __future__ import unicode_literals
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+from builtins import str
 import unittest
 
 import mock

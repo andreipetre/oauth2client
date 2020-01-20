@@ -15,6 +15,9 @@
 """Unit tests for oauth2client.client."""
 from __future__ import unicode_literals
 
+from builtins import str
+from builtins import range
+from builtins import object
 import base64
 import contextlib
 import copy
@@ -1010,7 +1013,7 @@ class BasicCredentialsTests(unittest.TestCase):
             self.assertEqual(v, http.headers[k])
 
         # Next, test that we do fail on unicode.
-        unicode_str = six.unichr(40960) + 'abcd'
+        unicode_str = six.chr(40960) + 'abcd'
         with self.assertRaises(client.NonAsciiHeaderError):
             transport.request(
                 http, u'http://example.com', method=u'GET',

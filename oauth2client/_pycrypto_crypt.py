@@ -14,6 +14,7 @@
 """pyCrypto Crypto-related routines for oauth2client."""
 from __future__ import unicode_literals
 
+from builtins import object
 from Crypto.Hash import SHA256
 from Crypto.PublicKey import RSA
 from Crypto.Signature import PKCS1_v1_5

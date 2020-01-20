@@ -4,6 +4,7 @@
 
 from __future__ import print_function
 from __future__ import unicode_literals
+from builtins import input
 from googleapiclient.discovery import build
 import httplib2
 from six.moves import input
@@ -22,7 +23,7 @@ flow_info = flow.step1_get_device_and_user_codes()
 print("Enter the following code at {0}: {1}".format(flow_info.verification_url,
                                                     flow_info.user_code))
 print("Then press Enter.")
-input()
+eval(input())
 
 # Step 2: get credentials
 # https://developers.google.com/accounts/docs/OAuth2ForDevices#obtainingatoken

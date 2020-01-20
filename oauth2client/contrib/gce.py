@@ -18,6 +18,7 @@ Utilities for making it easier to use OAuth 2.0 on Google Compute Engine.
 """
 from __future__ import unicode_literals
 
+from builtins import str
 import logging
 import warnings
 

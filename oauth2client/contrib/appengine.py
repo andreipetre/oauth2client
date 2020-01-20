@@ -18,6 +18,8 @@ Utilities for making it easier to use OAuth 2.0 on Google App Engine.
 """
 from __future__ import unicode_literals
 
+from builtins import str
+from builtins import object
 import cgi
 import json
 import logging

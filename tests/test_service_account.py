@@ -18,6 +18,7 @@ Unit tests for service account credentials implemented using RSA.
 """
 from __future__ import unicode_literals
 
+from builtins import zip
 import datetime
 import json
 import os

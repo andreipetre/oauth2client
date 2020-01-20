@@ -20,6 +20,9 @@ certificates.
 """
 from __future__ import unicode_literals
 
+from builtins import bytes
+from builtins import zip
+from builtins import object
 from pyasn1.codec.der import decoder
 from pyasn1_modules import pem
 from pyasn1_modules.rfc2459 import Certificate

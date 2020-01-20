@@ -15,6 +15,7 @@
 """Tests the initialization logic of django_util."""
 from __future__ import unicode_literals
 
+from builtins import object
 import copy
 import unittest
 

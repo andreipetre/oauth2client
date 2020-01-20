@@ -19,6 +19,7 @@ an OAuth 2.0 protected service.
 """
 from __future__ import unicode_literals
 
+from builtins import next
 import json
 
 import six
@@ -84,7 +85,7 @@ def _validate_clientsecrets(clientsecrets_dict):
     if clientsecrets_dict is None:
         raise InvalidClientSecretsError(_INVALID_FILE_FORMAT_MSG)
     try:
-        (client_type, client_info), = clientsecrets_dict.items()
+        (client_type, client_info), = list(clientsecrets_dict.items())
     except (ValueError, AttributeError):
         raise InvalidClientSecretsError(
             _INVALID_FILE_FORMAT_MSG + ' '

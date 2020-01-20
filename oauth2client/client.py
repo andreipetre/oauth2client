@@ -18,6 +18,8 @@ Tools for interacting with OAuth 2.0 protected resources.
 """
 from __future__ import unicode_literals
 
+from builtins import str
+from builtins import object
 import collections
 import copy
 import datetime
@@ -144,6 +146,7 @@ class AccessTokenRefreshError(Error):
 
 class HttpAccessTokenRefreshError(AccessTokenRefreshError):
     """Error (with HTTP status) trying to refresh an expired access token."""
+
     def __init__(self, *args, **kwargs):
         super(HttpAccessTokenRefreshError, self).__init__(*args)
         self.status = kwargs.get('status')
@@ -341,6 +344,7 @@ class Storage(object):
     such that multiple processes and threads can operate on a single
     store.
     """
+
     def __init__(self, lock=None):
         """Create a Storage instance.
 
@@ -1397,7 +1401,7 @@ def _get_application_default_credential_from_file(filename):
             "'type' field should be defined (and have one of the '" +
             AUTHORIZED_USER + "' or '" + SERVICE_ACCOUNT + "' values)")
 
-    missing_fields = required_fields.difference(client_credentials.keys())
+    missing_fields = required_fields.difference(list(client_credentials.keys()))
 
     if missing_fields:
         _raise_exception_for_missing_fields(missing_fields)

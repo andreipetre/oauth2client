@@ -15,6 +15,7 @@
 """Unit test for django_util views"""
 from __future__ import unicode_literals
 
+from builtins import object
 import copy
 import json
 

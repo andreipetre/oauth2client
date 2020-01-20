@@ -76,6 +76,7 @@ To retrieve the credentials::
 """
 from __future__ import unicode_literals
 
+from builtins import object
 import base64
 import json
 import logging
