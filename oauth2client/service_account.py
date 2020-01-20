@@ -13,6 +13,7 @@
 # limitations under the License.
 
 """oauth2client Service account credentials class."""
+from __future__ import unicode_literals
 
 import base64
 import copy

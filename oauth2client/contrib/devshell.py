@@ -13,6 +13,7 @@
 # limitations under the License.
 
 """OAuth 2.0 utitilies for Google Developer Shell environment."""
+from __future__ import unicode_literals
 
 import datetime
 import json

@@ -13,6 +13,7 @@
 # limitations under the License.
 
 """Py.test hooks."""
+from __future__ import unicode_literals
 
 from oauth2client import _helpers
 

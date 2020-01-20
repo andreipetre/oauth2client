@@ -16,6 +16,7 @@
 
 Having a test application enables us to use the Django test database and
 other useful features."""
+from __future__ import unicode_literals
 
 from django.apps import AppConfig
 

@@ -19,6 +19,7 @@ Django 1.7+ provides an
 API so that Django projects can introspect on installed applications using a
 stable API. This module exists to follow that convention.
 """
+from __future__ import unicode_literals
 
 import sys
 

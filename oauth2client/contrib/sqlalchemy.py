@@ -91,6 +91,7 @@ We will reuse tables defined above.
 """
 
 from __future__ import absolute_import
+from __future__ import unicode_literals
 
 import sqlalchemy.types
 

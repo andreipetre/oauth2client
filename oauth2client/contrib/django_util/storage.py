@@ -13,6 +13,7 @@
 # limitations under the License.
 
 """Contains a storage module that stores credentials using the Django ORM."""
+from __future__ import unicode_literals
 
 from oauth2client import client
 

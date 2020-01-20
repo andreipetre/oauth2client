@@ -17,6 +17,7 @@
 Utilities for making it easier to work with OAuth 2.0
 credentials.
 """
+from __future__ import unicode_literals
 
 import os
 import threading

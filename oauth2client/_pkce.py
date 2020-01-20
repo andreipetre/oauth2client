@@ -18,6 +18,7 @@ Public Clients
 
 See RFC7636.
 """
+from __future__ import unicode_literals
 
 import base64
 import hashlib

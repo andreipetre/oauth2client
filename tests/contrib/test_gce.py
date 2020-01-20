@@ -13,6 +13,7 @@
 # limitations under the License.
 
 """Unit tests for oauth2client.contrib.gce."""
+from __future__ import unicode_literals
 
 import datetime
 import json

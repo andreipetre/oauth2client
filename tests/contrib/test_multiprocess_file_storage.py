@@ -13,6 +13,7 @@
 # limitations under the License.
 
 """Unit tests for oauth2client.multistore_file."""
+from __future__ import unicode_literals
 
 import contextlib
 import datetime

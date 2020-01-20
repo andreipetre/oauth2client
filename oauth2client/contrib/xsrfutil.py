@@ -13,6 +13,7 @@
 # limitations under the License.
 
 """Helper methods for creating & verifying XSRF tokens."""
+from __future__ import unicode_literals
 
 import base64
 import binascii

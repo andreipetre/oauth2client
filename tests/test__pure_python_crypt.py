@@ -13,6 +13,7 @@
 # limitations under the License.
 
 """Unit tests for oauth2client._pure_python_crypt."""
+from __future__ import unicode_literals
 
 import os
 import unittest

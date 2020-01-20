@@ -1,3 +1,5 @@
+from __future__ import print_function
+from __future__ import unicode_literals
 # To be used to test GoogleCredentials.get_application_default()
 # from local machine and GCE.
 # The GCE virtual machine needs to have both service account and

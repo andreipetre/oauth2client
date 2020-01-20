@@ -18,6 +18,7 @@ Their are two views used by the OAuth2 flow, the authorize and the callback
 view. The authorize view kicks off the three-legged OAuth flow, and the
 callback view validates the flow and if successful stores the credentials
 in the configured storage."""
+from __future__ import unicode_literals
 
 import hashlib
 import json

@@ -225,6 +225,7 @@ our model would look like
        user = models.OneToOneField(User)
        credential = CredentialsField()
 """
+from __future__ import unicode_literals
 
 import importlib
 

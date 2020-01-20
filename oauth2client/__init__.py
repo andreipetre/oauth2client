@@ -13,6 +13,7 @@
 # limitations under the License.
 
 """Client library for using OAuth2, especially with Google APIs."""
+from __future__ import unicode_literals
 
 __version__ = '4.1.2'
 

@@ -13,6 +13,7 @@
 # limitations under the License.
 
 """Unit tests for JWT related methods in oauth2client."""
+from __future__ import unicode_literals
 
 import os
 import tempfile

@@ -13,6 +13,7 @@
 # limitations under the License.
 
 """Tests for the django_util decorators."""
+from __future__ import unicode_literals
 
 import copy
 

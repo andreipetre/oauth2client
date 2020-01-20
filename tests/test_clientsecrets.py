@@ -13,6 +13,7 @@
 # limitations under the License.
 
 """Unit tests for oauth2client.clientsecrets."""
+from __future__ import unicode_literals
 
 import errno
 from io import StringIO

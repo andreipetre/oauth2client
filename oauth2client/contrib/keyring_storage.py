@@ -16,6 +16,7 @@
 
 A Storage for Credentials that uses the keyring module.
 """
+from __future__ import unicode_literals
 
 import threading
 

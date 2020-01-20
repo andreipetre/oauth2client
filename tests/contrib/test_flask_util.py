@@ -13,6 +13,7 @@
 # limitations under the License.
 
 """Unit tests for the Flask utilities"""
+from __future__ import unicode_literals
 
 import datetime
 import json

@@ -13,6 +13,7 @@
 # limitations under the License.
 
 """Tests for oauth2client.contrib.xsrfutil."""
+from __future__ import unicode_literals
 
 import base64
 import unittest

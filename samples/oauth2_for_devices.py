@@ -2,6 +2,8 @@
 
 # See:  https://developers.google.com/accounts/docs/OAuth2ForDevices
 
+from __future__ import print_function
+from __future__ import unicode_literals
 from googleapiclient.discovery import build
 import httplib2
 from six.moves import input

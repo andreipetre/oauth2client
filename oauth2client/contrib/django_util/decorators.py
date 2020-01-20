@@ -24,6 +24,7 @@ authorization flow.
 exists. If it doesn't, the view will still render, but helper methods will be
 attached to start the oauth2 flow.
 """
+from __future__ import unicode_literals
 
 from django import shortcuts
 import django.conf

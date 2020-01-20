@@ -13,6 +13,7 @@
 # limitations under the License.
 
 """Contains classes used for the Django ORM storage."""
+from __future__ import unicode_literals
 
 import base64
 import pickle

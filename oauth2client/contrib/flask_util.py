@@ -161,6 +161,7 @@ If you need the credentials to be available longer than a user session or
 available outside of a request context, you will need to implement your own
 :class:`oauth2client.Storage`.
 """
+from __future__ import unicode_literals
 
 from functools import wraps
 import hashlib

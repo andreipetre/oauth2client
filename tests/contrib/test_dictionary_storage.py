@@ -13,6 +13,7 @@
 # limitations under the License.
 
 """Unit tests for oauth2client.contrib.dictionary_storage"""
+from __future__ import unicode_literals
 
 import unittest
 

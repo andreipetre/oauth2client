@@ -13,6 +13,7 @@
 # limitations under the License.
 
 """Helper functions for commonly used utilities."""
+from __future__ import unicode_literals
 
 import base64
 import functools

@@ -14,6 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 """Crypto-related routines for oauth2client."""
+from __future__ import unicode_literals
 
 import json
 import logging

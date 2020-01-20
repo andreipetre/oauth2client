@@ -13,6 +13,7 @@
 # limitations under the License.
 
 """Unit tests for oauth2client._helpers."""
+from __future__ import unicode_literals
 
 import unittest
 

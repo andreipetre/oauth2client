@@ -13,6 +13,7 @@
 # limitations under the License.
 
 """Unit tests for oauth2client.client."""
+from __future__ import unicode_literals
 
 import base64
 import contextlib

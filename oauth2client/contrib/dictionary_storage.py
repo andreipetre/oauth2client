@@ -13,6 +13,7 @@
 # limitations under the License.
 
 """Dictionary storage for OAuth2 Credentials."""
+from __future__ import unicode_literals
 
 from oauth2client import client
 

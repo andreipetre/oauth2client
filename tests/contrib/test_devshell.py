@@ -13,6 +13,7 @@
 # limitations under the License.
 
 """Tests for oauth2client.contrib.devshell."""
+from __future__ import unicode_literals
 
 import datetime
 import json

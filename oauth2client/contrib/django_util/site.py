@@ -13,6 +13,7 @@
 # limitations under the License.
 
 """Contains Django URL patterns used for OAuth2 flow."""
+from __future__ import unicode_literals
 
 from django.conf import urls
 

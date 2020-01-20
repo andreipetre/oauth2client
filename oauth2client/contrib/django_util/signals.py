@@ -17,6 +17,7 @@
 This module contains signals for Google OAuth2 Helper. Currently it only
 contains one, which fires when an OAuth2 authorization flow has completed.
 """
+from __future__ import unicode_literals
 
 import django.dispatch
 

@@ -17,6 +17,7 @@
 A client_secrets.json file contains all the information needed to interact with
 an OAuth 2.0 protected service.
 """
+from __future__ import unicode_literals
 
 import json
 

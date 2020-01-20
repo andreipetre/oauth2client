@@ -13,6 +13,7 @@
 # limitations under the License.
 
 """HTTP helpers mock functionality."""
+from __future__ import unicode_literals
 
 
 from six.moves import http_client

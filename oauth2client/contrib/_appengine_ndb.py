@@ -18,6 +18,7 @@ Classes that directly require App Engine's ndb library. Provided
 as a separate module in case of failure to import ndb while
 other App Engine libraries are present.
 """
+from __future__ import unicode_literals
 
 import logging
 

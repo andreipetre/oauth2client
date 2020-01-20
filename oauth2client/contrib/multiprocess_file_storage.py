@@ -74,6 +74,7 @@ To retrieve the credentials::
     storage.get(credentials)
 
 """
+from __future__ import unicode_literals
 
 import base64
 import json

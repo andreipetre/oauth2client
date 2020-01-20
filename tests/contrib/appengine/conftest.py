@@ -13,6 +13,7 @@
 # limitations under the License.
 
 """App Engine py.test configuration."""
+from __future__ import unicode_literals
 
 import sys
 

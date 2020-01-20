@@ -12,6 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 """pyCrypto Crypto-related routines for oauth2client."""
+from __future__ import unicode_literals
 
 from Crypto.Hash import SHA256
 from Crypto.PublicKey import RSA

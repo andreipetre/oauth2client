@@ -18,6 +18,7 @@ Uses the ``rsa``, ``pyasn1`` and ``pyasn1_modules`` packages
 to parse PEM files storing PKCS#1 or PKCS#8 keys as well as
 certificates.
 """
+from __future__ import unicode_literals
 
 from pyasn1.codec.der import decoder
 from pyasn1_modules import pem

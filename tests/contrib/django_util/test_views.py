@@ -13,6 +13,7 @@
 # limitations under the License.
 
 """Unit test for django_util views"""
+from __future__ import unicode_literals
 
 import copy
 import json

@@ -13,6 +13,7 @@
 # limitations under the License.
 
 """Tests for the DjangoORM storage class."""
+from __future__ import unicode_literals
 
 # Mock a Django environment
 import datetime

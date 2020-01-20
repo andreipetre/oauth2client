@@ -16,6 +16,7 @@
 
 Tools for interacting with OAuth 2.0 protected resources.
 """
+from __future__ import unicode_literals
 
 import collections
 import copy

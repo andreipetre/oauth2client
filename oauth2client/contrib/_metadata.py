@@ -16,6 +16,7 @@
 
 See https://cloud.google.com/compute/docs/metadata
 """
+from __future__ import unicode_literals
 
 import datetime
 import json

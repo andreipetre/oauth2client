@@ -13,6 +13,7 @@
 # limitations under the License.
 
 """Provides a base Django settings module used by the rest of the tests."""
+from __future__ import unicode_literals
 
 import os
 

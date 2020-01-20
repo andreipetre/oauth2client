@@ -13,6 +13,7 @@
 # limitations under the License.
 
 """Setups the Django test environment and provides helper classes."""
+from __future__ import unicode_literals
 
 import django
 from django import test

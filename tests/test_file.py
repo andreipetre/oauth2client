@@ -13,6 +13,7 @@
 # limitations under the License.
 
 """Unit tests for oauth2client.file."""
+from __future__ import unicode_literals
 
 import copy
 import datetime

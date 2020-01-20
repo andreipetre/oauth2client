@@ -13,6 +13,7 @@
 # limitations under the License.
 
 """Tests the initialization logic of django_util."""
+from __future__ import unicode_literals
 
 import copy
 import unittest

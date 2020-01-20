@@ -1,3 +1,4 @@
+from __future__ import unicode_literals
 # To be used to test GoogleCredentials.get_application_default()
 # from devel GAE (ie, dev_appserver.py).
 

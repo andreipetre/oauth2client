@@ -16,6 +16,7 @@
 
 Unit tests for models and fields defined by the django_util helper.
 """
+from __future__ import unicode_literals
 
 import base64
 import pickle
