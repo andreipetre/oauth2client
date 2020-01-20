@@ -11,13 +11,11 @@ matrix:
     env: TOX_ENV=gae
   - python: 2.7
     env: TOX_ENV=py27
-  - python: 3.4
-    env: TOX_ENV=py34
-  - python: 3.5
-    env: TOX_ENV=py35
+  - python: 3.7
+    env: TOX_ENV=py37
   - python: 2.7
     env: TOX_ENV=system-tests
-  - python: 3.4
+  - python: 3.7
     env: TOX_ENV=system-tests3
   - python: 2.7
     env: TOX_ENV=cover
