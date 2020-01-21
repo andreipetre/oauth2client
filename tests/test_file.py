@@ -15,7 +15,6 @@
 """Unit tests for oauth2client.file."""
 from __future__ import unicode_literals
 
-from builtins import oct
 import copy
 import datetime
 import json

@@ -18,8 +18,7 @@ Tools for interacting with OAuth 2.0 protected resources.
 """
 from __future__ import unicode_literals
 
-from builtins import str
-from builtins import object
+from builtins import object, str
 import collections
 import copy
 import datetime

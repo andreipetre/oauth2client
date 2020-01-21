@@ -15,8 +15,8 @@
 """HTTP helpers mock functionality."""
 from __future__ import unicode_literals
 
-
 from builtins import object
+
 from six.moves import http_client
 
 

@@ -11,20 +11,18 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
 """Command-line tools for authenticating via OAuth 2.0
 
 Do the OAuth 2.0 Web Server dance for a command line application. Stores the
 generated credentials in a common file that is used by other example apps in
 the same directory.
 """
-
 from __future__ import print_function
 from __future__ import unicode_literals
 
 from future import standard_library
 standard_library.install_aliases()
-from builtins import input
+
 import logging
 import socket
 import sys
